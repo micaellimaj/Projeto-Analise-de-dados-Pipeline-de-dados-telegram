@@ -2,9 +2,9 @@
 
 Nesse Projeto será construído um bot do Telegram com dados de Recursos Humanos, trazendo informações a respeito dos funcionários do dataset conforme a categoria escolhida, como veremos logo a seguir. Isso permite que usuários do grupo de RH do Telegram obtenham facilmente informações via bot, tirando a dependência direta do pessoal de dados, aliviando assim, a carga operacional e agilizando processos internos. Além disso, será feito um pipeline de dados com as conversas do Telegram, envolvendo etapas de ingestão de dados, ETL e apresentação no ambiente da Amazon Web Service. E por fim trabalharemos com orientação a coluna em cima do dataset de RH com boas práticas de big data.
 
-Para fazer o*download* do dataset de RH: [link](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
+Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
 
-### Ambientes utilizadas:
+### Ambientes utilizados:
 <div>
  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="aws Logo">
  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" alt="icon colab">
