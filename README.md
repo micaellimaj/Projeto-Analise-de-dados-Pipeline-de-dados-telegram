@@ -4,19 +4,19 @@ Nesse Projeto será construído um bot do Telegram com dados de Recursos Humanos
 
 Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
 
-### Ambientes utilizados:
+### 💻 Ambientes utilizados:
 <div>
  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="aws Logo">
  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" alt="icon colab">
 </div>
 
-### Linguagens utilizadas:
+### ⌨️ Linguagens utilizadas:
 <div>
   <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" alt="Python Logo"  width="50px">
   <img src="https://cdn-icons-png.flaticon.com/128/9544/9544010.png" alt="sql Logo"  width="50px">
 </div>
 
-### Atributos do dataset de RH:
+### 📝 Atributos do dataset de RH:
 
 * **Employee_Name**: Nome do funcionário.
 * **EmpID**: Identificação única do funcionário.
@@ -55,7 +55,7 @@ Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kagg
 * **DaysLateLast30**: Número de dias em atraso nos últimos 30 dias.
 * **Absences**: Número de faltas do funcionário.
 
-### Desenvolvimento
+### ✅ Desenvolvimento:
 
 * Verificação da estrutura dos dados e tratamento do dataset de RH para o formato ideal das análises.
 * Criação de um bot de Telegram com o uso do botfather e configuração do bot para atender as necessidades do projeto.
@@ -70,7 +70,7 @@ Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kagg
 * Na etapa de Apresentação usamos o AWS Athena para apresentar para o usuário final informações do bot por meio de consultas SQL.
 * E por fim foi trabalhado orientação a coluna sobre o dataset de RH com boas práticas de Big Data.
   
-### Importações Python Google Colab
+### 📥 Importações Python Google Colab
 
 ```
 import telebot
@@ -87,7 +87,7 @@ import sys
 import seaborn as sns
 
 ```
-### Importações Python AWS Lambda
+### 📥 Importações Python AWS Lambda
 
 ```
 import os
@@ -101,7 +101,7 @@ import pyarrow.parquet as pq
 
 ```
 
-### Referências
+### 📎 Referências
 
 * [ebac](https://ebaconline.com.br/)
 * [hashtag_programacao](https://youtu.be/_RQw5Nw7Op0?si=VuYOn8Xp9gRkMWho)
