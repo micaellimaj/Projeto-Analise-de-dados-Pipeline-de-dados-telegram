@@ -57,13 +57,16 @@ Para fazer o*download* do dataset de RH: [link](https://www.kaggle.com/datasets/
 
 ## Desenvolvimento
 
-➮ Verificação da estrutura dos dados e tratamento do dataset de RH para o formato ideal das análises.
-➮ Criação de um bot de Telegram com o uso do botfather e configuração do bot para atender as necessidades do projeto.
-➮ Retorno de funções Python em resposta a interação com o bot do Telegram.
-➮ Captura das mensagens do bot e demais dados com o método get.
-➮ Trabalho com três etapas no pipeline: ingestão, ETL e apresentação.
-➮ Na etapa de Ingestão envolve coleta, transferência e armazenamento de dados.
-➮ Na etapa de ETL envolve extração e transformação dos dados para o usuário final.
-➮ Na etapa de Apresentação usamos o AWS Athena para apresentar para o usuário final informações do bot por meio de consultas SQL.
-➮ E por fim foi trabalhado orientação a coluna sobre o dataset de RH com boas práticas de Big Data.
+* Verificação da estrutura dos dados e tratamento do dataset de RH para o formato ideal das análises.
+* Criação de um bot de Telegram com o uso do botfather e configuração do bot para atender as necessidades do projeto.
+* Retorno de funções Python em resposta a interação com o bot do Telegram.
+* Captura das mensagens do bot e demais dados com o método get.
+* Trabalho com três etapas no pipeline:
+   * Ingestão
+   * ETL
+   * Apresentação
+* Na etapa de Ingestão envolve coleta, transferência e armazenamento de dados.
+* Na etapa de ETL envolve extração e transformação dos dados para o usuário final.
+* Na etapa de Apresentação usamos o AWS Athena para apresentar para o usuário final informações do bot por meio de consultas SQL.
+* E por fim foi trabalhado orientação a coluna sobre o dataset de RH com boas práticas de Big Data.
   
