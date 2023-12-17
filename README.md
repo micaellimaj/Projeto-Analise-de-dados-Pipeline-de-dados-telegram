@@ -12,8 +12,8 @@ Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kagg
 
 ### ⌨️ Linguagens utilizadas:
 <div>
-  <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" alt="Python Logo"  width="50px">
-  <img src="https://cdn-icons-png.flaticon.com/128/9544/9544010.png" alt="sql Logo"  width="50px">
+  <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" alt="Python Logo"  width="40px">
+  <img src="https://cdn-icons-png.flaticon.com/128/9544/9544010.png" alt="sql Logo"  width="40px">
 </div>
 
 ### 📝 Atributos do dataset de RH:
