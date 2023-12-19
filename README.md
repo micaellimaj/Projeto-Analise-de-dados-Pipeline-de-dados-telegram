@@ -1,11 +1,12 @@
 # Projeto-Análise-de-dados-Pipeline-de-dados-telegram
 
-### Arquitetura:
-<img src="" alt="arquitetura">
+### ⚙️ Arquitetura do Projeto:
+<img src="architecture.png" alt="arquitetura">
 
+### 📋 Sobre o Projeto:
 Nesse Projeto será construído um bot do Telegram com dados de Recursos Humanos, trazendo informações a respeito dos funcionários do dataset conforme a categoria escolhida, como veremos logo a seguir. Isso permite que usuários do grupo de RH do Telegram obtenham facilmente informações via bot, tirando a dependência direta do pessoal de dados, aliviando assim, a carga operacional e agilizando processos internos. Além disso, será feito um pipeline de dados com as conversas do Telegram, envolvendo etapas de ingestão de dados, ETL e apresentação no ambiente da Amazon Web Service. E por fim trabalharemos com orientação a coluna em cima do dataset de RH com boas práticas de big data.
 
-Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
+📍Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set).
 
 ### 💻 Ambientes utilizados:
 <div>
@@ -88,7 +89,7 @@ Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kagg
    - Uso do `Apache Arrow`, uma estrutura de dados **orientado a coluna** muito utilizada no ecossistema de **big data**;
    - Utilização de `particionamento` de dados bem distribuídos para o armazenamento de grandes volumes de dados;
   
-### 📥 Importações Python Google Colab
+### 📥 Importações Python Google Colab:
 
 ```
 import telebot
@@ -105,7 +106,7 @@ import sys
 import seaborn as sns
 
 ```
-### 📥 Importações Python AWS Lambda
+### 📥 Importações Python AWS Lambda:
 
 ```
 import os
@@ -119,7 +120,7 @@ import pyarrow.parquet as pq
 
 ```
 
-### 📎 Referências
+### 📎 Referências:
 
 * [ebac](https://ebaconline.com.br/)
 * [hashtag_programacao](https://youtu.be/_RQw5Nw7Op0?si=VuYOn8Xp9gRkMWho)
