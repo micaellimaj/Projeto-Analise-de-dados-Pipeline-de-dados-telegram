@@ -119,7 +119,34 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 
 ```
+### Organização do Projeto:
+------------
 
+    ├── LICENSE
+    │
+    ├── README.md                 <- O Readme de nível superior para desenvolvedores que usam esse projeto
+    │
+    ├── architecture.png          <- Arquitetura do projeto de Pipeline de dados   
+    │
+    ├── Consultas                 <- Referente as consultas SQL realizadas.
+    │
+    ├── Personalização            <- Contém imagens utilizadas para deixar o caderno apresentável para o usuário.
+    │
+    ├── Relatórios                <- Coleção de capturas de tela sobre todo o processo de pipeline de dados realizado na Amazon Web Service e Telegram, além de gráficos no google colab.
+    │   ├── capturas de tela      <- Coleção de capturas de tela sobre todo o processo de pipeline de dados realizado na Amazon Web Service
+    │   ├── graficos              <- Coleção de capturas de gráficos do google colab com python
+    │   ├── telegram              <- Coleção de capturas de tela do telegram
+    │ 
+    ├── documentos                <- datasets utilizados no projeto, incluindo o arquivo original e o arquivo particionado.
+    │   ├── dataset.HR.original   <- datasets de recursos humanos original
+    │   ├── dataset.HR.particao   <- datasets de recursos humanos modificado
+    │
+    ├── notebook                  <- caderno jupyter notebook utilizado para contrução e apresentação do projeto
+    │
+    └── requirements.txt          <- O arquivo de requisitos para reproduzir o ambiente de análise, por exemplo, gerado com `pip congelamento > requisitos.txt`
+
+
+--------
 ### 📎 Referências:
 
 * [ebac](https://ebaconline.com.br/)
