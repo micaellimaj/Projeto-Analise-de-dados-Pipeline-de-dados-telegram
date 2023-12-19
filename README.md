@@ -89,7 +89,9 @@ Nesse Projeto será construído um bot do Telegram com dados de Recursos Humanos
    - Uso do `Apache Arrow`, uma estrutura de dados **orientado a coluna** muito utilizada no ecossistema de **big data**;
    - Utilização de `particionamento` de dados bem distribuídos para o armazenamento de grandes volumes de dados;
   
-### 📥 Importações Python Google Colab:
+### 📥 Importações Python:
+
+➮ **Google Colab**:
 
 ```
 import telebot
@@ -106,7 +108,7 @@ import sys
 import seaborn as sns
 
 ```
-### 📥 Importações Python AWS Lambda:
+➮ **AWS Lambda**:
 
 ```
 import os
@@ -149,5 +151,5 @@ import pyarrow.parquet as pq
 --------
 ### 🌐 Referências:
 
-[ebac](https://ebaconline.com.br/) / [hashtag_programacao](https://youtu.be/_RQw5Nw7Op0?si=VuYOn8Xp9gRkMWho)
+✦ [ebac](https://ebaconline.com.br/) / ✦ [hashtag_programacao](https://youtu.be/_RQw5Nw7Op0?si=VuYOn8Xp9gRkMWho)
 
