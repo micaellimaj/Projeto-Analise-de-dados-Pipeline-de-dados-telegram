@@ -1,5 +1,7 @@
 # Projeto-Análise-de-dados-Pipeline-de-dados-telegram
 
+### Arquitetura
+
 Nesse Projeto será construído um bot do Telegram com dados de Recursos Humanos, trazendo informações a respeito dos funcionários do dataset conforme a categoria escolhida, como veremos logo a seguir. Isso permite que usuários do grupo de RH do Telegram obtenham facilmente informações via bot, tirando a dependência direta do pessoal de dados, aliviando assim, a carga operacional e agilizando processos internos. Além disso, será feito um pipeline de dados com as conversas do Telegram, envolvendo etapas de ingestão de dados, ETL e apresentação no ambiente da Amazon Web Service. E por fim trabalharemos com orientação a coluna em cima do dataset de RH com boas práticas de big data.
 
 Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
@@ -60,15 +62,30 @@ Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kagg
 * Verificação da estrutura dos dados e tratamento do dataset de RH para o formato ideal das análises.
 * Criação de um bot de Telegram com o uso do botfather e configuração do bot para atender as necessidades do projeto.
 * Retorno de funções Python em resposta a interação com o bot do Telegram.
-* Captura das mensagens do bot e demais dados com o método get.
+* Captura das mensagens do bot e demais dados com o método `get`.
 * Trabalho com três etapas no pipeline:
    * Ingestão
    * ETL
    * Apresentação
 * Na etapa de Ingestão envolve coleta, transferência e armazenamento de dados.
+   - Criar um *bucket* no `AWS S3`;
+   - Criar uma função no `AWS Lambda`;
+        - Definir variáveis de ambiente e permissões.
+   - Criar uma API *web* no `AWS API Gateway`;
+   - Configurar o *webhook* da API de *bots* do **Telegram**.
 * Na etapa de ETL envolve extração e transformação dos dados para o usuário final.
-* Na etapa de Apresentação usamos o AWS Athena para apresentar para o usuário final informações do bot por meio de consultas SQL.
+   - Criar um *bucket* no `AWS S3` com sufixo `-enriched`;
+   - Criar uma função no `AWS Lambda` com sufixo `-enriched`;
+        - Definir variáveis de ambiente, permissões, recursos e camadas.
+   - criar regra para ativar a funçõe de ETL do `AWS Lambda` no `AWS Event Bridge`;
+        - Definir programação para execução da função.
+* Na etapa de Apresentação usamos o `AWS Athena` para apresentar para o usuário final informações do bot por meio de consultas `SQL`.
+   -  o `AWS Athena` tem função de entregar o dados através de uma interface `SQL` para os usuários do sistema analítico;
+   -  Com o dado disponível, usuário podem executar as mais variadas consultas analíticas;
 * E por fim foi trabalhado orientação a coluna sobre o dataset de RH com boas práticas de Big Data.
+   - Trabalho com o `Apache Parquet`, formato de arquivo **orientado a coluna** mais utilizado no ecossistema de **Big Data**;
+   - Uso do `Apache Arrow`, uma estrutura de dados **orientado a coluna** muito utilizada no ecossistema de **big data**;
+   - Utilização de `particionamento` de dados bem distribuídos para o armazenamento de grandes volumes de dados;
   
 ### 📥 Importações Python Google Colab
 
