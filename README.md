@@ -66,9 +66,24 @@ Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kagg
    * ETL
    * Apresentação
 * Na etapa de Ingestão envolve coleta, transferência e armazenamento de dados.
+   - Criar um *bucket* no `AWS S3`;
+   - Criar uma função no `AWS Lambda`;
+        - Definir variáveis de ambiente e permissões.
+   - Criar uma API *web* no `AWS API Gateway`;
+   - Configurar o *webhook* da API de *bots* do **Telegram**.
 * Na etapa de ETL envolve extração e transformação dos dados para o usuário final.
+   - Criar um *bucket* no `AWS S3` com sufixo `-enriched`;
+   - Criar uma função no `AWS Lambda` com sufixo `-enriched`;
+        - Definir variáveis de ambiente, permissões, recursos e camadas.
+   - criar regra para ativar a funçõe de ETL do `AWS Lambda` no `AWS Event Bridge`;
+        - Definir programação para execução da função.
 * Na etapa de Apresentação usamos o AWS Athena para apresentar para o usuário final informações do bot por meio de consultas SQL.
+   -  o `AWS Athena` tem função de entregar o dados através de uma interface SQL para os usuários do sistema analítico;
+   -  Com o dado disponível, usuário podem executar as mais variadas consultas analíticas;
 * E por fim foi trabalhado orientação a coluna sobre o dataset de RH com boas práticas de Big Data.
+   - Trabalho com o `Apache Parquet`, formato de arquivo **orientado a coluna** mais utilizado no ecossistema de **Big Data**;
+   - Uso do `Apache Arrow`, uma estrutura de dados **orientado a coluna** muito utilizada no ecossistema de *big data*;
+   - Utilização de particionaamento de dados bem distribuídos para o armazenamento de grandes volumes de dados;
   
 ### 📥 Importações Python Google Colab
 
