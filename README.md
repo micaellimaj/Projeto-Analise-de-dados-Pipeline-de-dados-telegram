@@ -119,7 +119,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 
 ```
-### Organização do Projeto:
+### 📎 Organização do Projeto:
 ------------
 
     ├── LICENSE
@@ -147,8 +147,7 @@ import pyarrow.parquet as pq
 
 
 --------
-### 📎 Referências:
+### 🌐 Referências:
 
-* [ebac](https://ebaconline.com.br/)
-* [hashtag_programacao](https://youtu.be/_RQw5Nw7Op0?si=VuYOn8Xp9gRkMWho)
+[ebac](https://ebaconline.com.br/) / [hashtag_programacao](https://youtu.be/_RQw5Nw7Op0?si=VuYOn8Xp9gRkMWho)
 
