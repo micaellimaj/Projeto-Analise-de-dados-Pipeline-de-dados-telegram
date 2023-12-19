@@ -60,7 +60,7 @@ Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kagg
 * Verificação da estrutura dos dados e tratamento do dataset de RH para o formato ideal das análises.
 * Criação de um bot de Telegram com o uso do botfather e configuração do bot para atender as necessidades do projeto.
 * Retorno de funções Python em resposta a interação com o bot do Telegram.
-* Captura das mensagens do bot e demais dados com o método get.
+* Captura das mensagens do bot e demais dados com o método `get`.
 * Trabalho com três etapas no pipeline:
    * Ingestão
    * ETL
@@ -77,13 +77,13 @@ Clique para fazer o *download* do dataset de [Recursos Humanos](https://www.kagg
         - Definir variáveis de ambiente, permissões, recursos e camadas.
    - criar regra para ativar a funçõe de ETL do `AWS Lambda` no `AWS Event Bridge`;
         - Definir programação para execução da função.
-* Na etapa de Apresentação usamos o AWS Athena para apresentar para o usuário final informações do bot por meio de consultas SQL.
-   -  o `AWS Athena` tem função de entregar o dados através de uma interface SQL para os usuários do sistema analítico;
+* Na etapa de Apresentação usamos o `AWS Athena` para apresentar para o usuário final informações do bot por meio de consultas `SQL`.
+   -  o `AWS Athena` tem função de entregar o dados através de uma interface `SQL` para os usuários do sistema analítico;
    -  Com o dado disponível, usuário podem executar as mais variadas consultas analíticas;
 * E por fim foi trabalhado orientação a coluna sobre o dataset de RH com boas práticas de Big Data.
    - Trabalho com o `Apache Parquet`, formato de arquivo **orientado a coluna** mais utilizado no ecossistema de **Big Data**;
-   - Uso do `Apache Arrow`, uma estrutura de dados **orientado a coluna** muito utilizada no ecossistema de *big data*;
-   - Utilização de particionaamento de dados bem distribuídos para o armazenamento de grandes volumes de dados;
+   - Uso do `Apache Arrow`, uma estrutura de dados **orientado a coluna** muito utilizada no ecossistema de **big data**;
+   - Utilização de `particionamento` de dados bem distribuídos para o armazenamento de grandes volumes de dados;
   
 ### 📥 Importações Python Google Colab
 
