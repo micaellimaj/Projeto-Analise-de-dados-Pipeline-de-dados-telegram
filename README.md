@@ -151,5 +151,5 @@ import pyarrow.parquet as pq
 --------
 ### 🌐 Referências:
 
-✦ [ebac](https://ebaconline.com.br/) / ✦ [hashtag_programacao](https://youtu.be/_RQw5Nw7Op0?si=VuYOn8Xp9gRkMWho)
+✦ [ebac](https://ebaconline.com.br/)  ✦ [hashtag_programacao](https://youtu.be/_RQw5Nw7Op0?si=VuYOn8Xp9gRkMWho)
 
