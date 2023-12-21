@@ -124,6 +124,9 @@ import pyarrow.parquet as pq
 ### 📎 Organização do Projeto:
 ------------
 
+
+    ├── requirements.txt          <- O arquivo de requisitos para reproduzir o ambiente de análise, por exemplo, gerado com `pip congelamento > requisitos.txt
+    │
     ├── LICENSE
     │
     ├── README.md                 <- O Readme de nível superior para desenvolvedores que usam esse projeto
@@ -143,10 +146,8 @@ import pyarrow.parquet as pq
     │   ├── dataset.HR.original   <- datasets de recursos humanos original
     │   ├── dataset.HR.particao   <- datasets de recursos humanos modificado
     │
-    ├── notebook                  <- caderno jupyter notebook utilizado para contrução e apresentação do projeto
-    │
-    └── requirements.txt          <- O arquivo de requisitos para reproduzir o ambiente de análise, por exemplo, gerado com `pip congelamento > requisitos.txt`
-
+    └──notebook                  <- caderno jupyter notebook utilizado para contrução e apresentação do projeto
+    
 
 --------
 ### 🌐 Referências:
